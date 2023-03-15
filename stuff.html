@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MedBeautyDent Врачи</title>
+	<script defer src="./js/burger.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/subpage.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="modal" id="my-modal">
+		<div class="modal__box">
+			<button class="modal__close-btn" id="close-my-modal-btn">
+				<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+						fill="#333333" />
+					<path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+				</svg>
+			</button>
+			<div class="modal_title modal_title-top">Консультации по телефону:</div>
+			<div class="modal_phone"><a style="color:white" href="tel:+74732323030">+7 (473) 232-30-30</a></div>
+			<div class="modal_icons">
+				<div class="modal_icon">
+					<a href="https://vk.com/medbeautydent">
+						<img class="modal-img" src="./img/vk.png" alt="vk">
+					</a>
+				</div>
+				<div class="modal_icon">
+					<a href="https://www.instagram.com/medbeautydent">
+						<img class="modal-img_insta" src="./img/instagram.png" alt="insta">
+					</a>
+				</div>
+			</div>
+			<div class="modal_title modal_title-down">Записаться на прием:</div>
+			<div class="modal_inputs">
+				<input class="modal_input" type="text" placeholder="Имя">
+				<input class="modal_input" type="tel" placeholder="Телефон">
+				<button class="modal_btn">Отправить</button>
+			</div>
+			<div class="modal_agreement">
+				Оставьте нам свой номер телефона, и мы свяжемся с Вами, чтобы обсудить детали записи.
+			</div>
+		</div>
+	</div>
+	<Nav class="nav">
+		<div class="nav_container">
+			<button class="header__burger-btn" id="burger">
+				<span></span><span></span><span></span>
+			</button>
+			<div class="nav_logotype">
+				<a href="index.html"><img src="./img/logotype.jpg" alt="logo"></a>
+			</div>
+			<ul class="nav_list">
+				<li class="nav_item nav_active-item">
+					<div class="nav-link">
+						<a href="#">УСЛУГИ И ЦЕНЫ</a>
+						<button id="span" class="nav_active-span">
+							<img src="./img/arrow.png" alt="arrow">
+						</button>
+					</div>
+					<div class="nav-submenu">
+						<ul class="nav-submenu_list">
+							<li class="nav-submenu_item"><a href="lechenie_zubov.html">Лечение зубов</a></li>
+							<li class="nav-submenu_item"><a href="hirurgicheskay_stomat.html">Хирургическая
+									стоматология</a></li>
+							<li class="nav-submenu_item"><a href="protezirovanie.html">Протезирование</a></li>
+							<li class="nav-submenu_item"><a href="chistka_polosti.html">Чистка полости рта</a></li>
+						</ul>
+						<ul class="nav-submenu_list">
+							<li class="nav-submenu_item"><a href="destkay_stomatologiya.html">Детская стоматология</a>
+							</li>
+							<li class="nav-submenu_item"><a href="ispravlenie_pricusa.html">Исправление прикуса</a></li>
+							<li class="nav-submenu_item"><a href="restavration_and_vinir.html">Реставрация и виниры</a>
+							</li>
+							<li class="nav-submenu_item"><a href="cosmetologia_and_massag.html">Косметология и
+									массаж</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav_item"><a href="sales.html">АКЦИИ</a> </li>
+				<li class="nav_item"><a href="stuff.html">ВРАЧИ</a> </li>
+				<li class="nav_item"><a href="about_us.html">О КЛИНИКЕ</a> </li>
+				<li class="nav_item"><a href="blog.html">БЛОГ</a> </li>
+				<li class="nav_item"><a href="contacts.html">КОНТАКТЫ</a> </li>
+			</ul>
+			<div class="nav_application">
+				<button class="nav_application-btn" id="open-modal-btn"><img class="nav__icon" src="./img/phone.svg"
+						alt="logo"></button>
+			</div>
+		</div>
+	</Nav>
+	<section class="stuff">
+		<div class="body_container stuff_container">
+			<div class="stuff-title">
+				НАШИ СПЕЦИАЛИСТЫ
+			</div>
+			<div class="stuff-list">
+				<div class="stuff-card card-stuff">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/1.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text">
+						<div class="card-stuff_title">
+							Горшкова Екатерина Яковлевна
+						</div>
+						<div class="card-stuff_subtitle">
+							Директор, врач стоматолог-терапевт
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы более 10 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							Окончила ВГМА им. Бурденко в 2009 году, по специальности "Стоматология". В 2011 году
+							закончила
+							клиническую ординатуру
+							при ГОУ ВПО ВГМА им. Бурденко. В 2016 и 2020 годах проходила курсы профессиональной
+							переподготовки.
+						</div>
+						<div class="card-stuff_paragraf">
+							Регулярно повышает свою квалификацию на специализированных курсах, семинарах и вебинарах.
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff card-reverse">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/2.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text card-text_reverse">
+						<div class="card-stuff_title">
+							Кочуков Евгений Анатольевич
+						</div>
+						<div class="card-stuff_subtitle">
+							Врач стоматолог-ортопед
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы более 15 лет. Врач первой категории.
+						</div>
+						<div class="card-stuff_paragraf">
+							Закончил ВГМА им. Бурденко в 2004 году, по специальности "Стоматология". В 2005 году
+							закончил клиническую интернатуру
+							"стоматология ортопедическая" и "стоматология общей практики". В 2020 году прошёл
+							профессиональную переподготовку в ВГМА
+							им. Бурденко по специальности "стоматология ортопедическая".
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/3.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text">
+						<div class="card-stuff_title">
+							Мазанаев Курбан Набиевич
+						</div>
+						<div class="card-stuff_subtitle">
+							Врач стоматолог-хирург-имплантолог
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы около 10 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							Окончил ВГМА им. Бурденко в 2014 году, по специальности "Стоматология". В 2015 году закончил
+							клиническую интернатуру
+							"стоматология хирургическая" и "стоматология общей практики". В 2020 году прошел курс по
+							повышению квалификации
+							"стоматология хирургическая".
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff card-reverse">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/4.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text card-text_reverse">
+						<div class="card-stuff_title">
+							Мамеева Карина Абидиновна
+						</div>
+						<div class="card-stuff_subtitle">
+							Врач стоматолог-ортодонт
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы около 10 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							Окончила ВГМУ им. Бурденко в 2016 году, по специальности "Стоматология общей практики". В
+							2018 году окончила обучение в
+							ординатуре в ВГМУ им. Бурденко по специальности «Ортодонтия».
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/5.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text">
+						<div class="card-stuff_title">
+							Жакот Иван Васильевич
+						</div>
+						<div class="card-stuff_subtitle">
+							Врач стоматолог-терапевт и стоматолог-хирург
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы около 10 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							Окончил ВГМА им. Бурденко в 2014 году. В 2015 окончил интернатуру по специальности
+							"стоматолог общей практики" . В 2018
+							году окончил аспирантуру по направлению "клиническая медицина".
+						</div>
+						<div class="card-stuff_paragraf">
+							Автор 11 научных публикаций в российских и зарубежных журналах. Присвоена ученая степень
+							Кандидата Медицинских Наук.
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff card-reverse">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/6.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text card-text_reverse">
+						<div class="card-stuff_title">
+							Абрамова Татьяна Игоревна
+						</div>
+						<div class="card-stuff_subtitle">
+							Детский стоматолог, специалист по лечению подростков
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы около 10 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							В 2014 году закончила ВГМА. В 2015 году закончила интернатуру общей практики ВГМУ. В 2016
+							году прошла курсы по детской
+							стоматологии. В 2020 году прошла курсы переподготовки по детской стоматологии.
+						</div>
+						<div class="card-stuff_paragraf">
+							Членство в профессиональных организациях: Международная ассоциация детских стоматологов
+							(IAPD)
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+				<div class="stuff-card card-stuff">
+					<div class="card-stuff_imgs">
+						<img src="./img/stuffs/7.PNG" alt="1" class="card-stuff_img">
+					</div>
+					<div class="card-stuff_text">
+						<div class="card-stuff_title">
+							Останкова Татьяна Александровна
+						</div>
+						<div class="card-stuff_subtitle">
+							Врач-косметолог-эстетист
+						</div>
+						<div class="card-stuff_paragraf">
+							Стаж работы около 5 лет.
+						</div>
+						<div class="card-stuff_paragraf">
+							В 2013 году закончила ВГМА им. Бурденко. В 2019 году закончила обучение по косметологии.
+							Регулярно усовершенствует свои
+							навыки и знания, посещает семинары и мастер-классы.
+						</div>
+						<div class="stuff_button">
+							<a target="_blank"
+								href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+								class="main_button ">Записаться на прием</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="body_container footer_container">
+			<div class="footer_left-column">
+				<a href="index.html"><img class="footer-logotype" src="./img/logotype.jpg" alt="logotype"></a>
+				<div class="left-column_title">
+					УСЛУГИ И ЦЕНЫ
+				</div>
+				<ul class="left-column_list">
+					<li class="left-column_item">
+						<a class="footer-link" href="lechenie_zubov.html">Лечение зубов</a>
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="#">Имплантация зубов</a>
+
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="#">Протезирование зубов</a>
+
+					</li>
+				</ul>
+			</div>
+			<div class="footer_middle-first">
+				<div class="middle-first-title footer-title">
+					Телефон консультации:
+				</div>
+				<div class="middle-first-numbers">
+					<div class="middle-first-number footer-description">
+						+7 (910) 732-30-30
+					</div>
+					<div class="middle-first-number footer-description">
+						+7 (473) 232-30-30
+					</div>
+					<ul class="left-column_list left-column_list-top">
+						<li class="left-column_item">
+							<a class="footer-link" href="protezirovanie.html">Чистка полости рта</a>
+
+						</li>
+						<li class="left-column_item">
+							<a class="footer-link" href="#">Хирургия</a>
+
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="footer_middle-second">
+				<div class="middle-first-title footer-title">
+					Адрес:
+				</div>
+				<div class="middle-first-number footer-address">
+					Воронежская область, город
+				</div>
+				<div class="middle-first-number footer-address">
+					Воронеж, мкр. Жилой массив Олимпийский, д.10, помещ. 1/7
+				</div>
+				<ul class="left-column_list left-column_list-subtop">
+					<li class="left-column_item">
+						<a class="footer-link" href="ispravlenie_pricusa.html">Исправление прикуса</a>
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="restavration_and_vinir.html">Реставрация и виниры</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="footer_right-column">
+				<ul class="footer-right_list">
+					<div class="footer-right_item">
+						<a class="footer-link" href="sales.html">АКЦИИ</a>
+
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="stuff.html">ВРАЧИ</a>
+
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="about_us.html">О КЛИНИКЕ</a>
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="contacts.html">КОНТАКТЫ</a>
+						КОНТАКТЫ
+					</div>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<button id="top">
+		<img class="top" src="./img/scroll.svg" alt="scroll">
+	</button>
+	<script defer src="./js/main.js"></script>
+	<script defer src="./js/modal.js"></script>
+</body>
+
+</html>

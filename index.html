@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MedBeautyDent Главная</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script defer src="./js/main.js"></script>
+</head>
+
+<body>
+	<div class="modal" id="my-modal">
+		<div class="modal__box">
+			<button class="modal__close-btn" id="close-my-modal-btn">
+				<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+						fill="#333333" />
+					<path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+				</svg>
+			</button>
+			<div class="modal_title modal_title-top">Консультации по телефону:</div>
+			<div class="modal_phone"><a style="color:white" href="tel:+74732323030">+7 (473) 232-30-30</a></div>
+			<div class="modal_icons">
+				<div class="modal_icon">
+					<a href="https://vk.com/medbeautydent">
+						<img class="modal-img" src="./img/vk.png" alt="vk">
+					</a>
+				</div>
+				<div class="modal_icon">
+					<a href="https://www.instagram.com/medbeautydent">
+						<img class="modal-img_insta" src="./img/instagram.png" alt="insta">
+					</a>
+				</div>
+			</div>
+			<div class="modal_title modal_title-down">Записаться на прием:</div>
+			<div class="modal_inputs">
+				<input class="modal_input" type="text" placeholder="Имя">
+				<input class="modal_input" type="tel" placeholder="Телефон">
+				<button class="modal_btn">Отправить</button>
+			</div>
+			<div class="modal_agreement">
+				Оставьте нам свой номер телефона, и мы свяжемся с Вами, чтобы обсудить детали записи.
+			</div>
+		</div>
+	</div>
+	<Nav class="nav">
+		<div class="nav_container">
+			<button class="header__burger-btn" id="burger">
+				<span></span><span></span><span></span>
+			</button>
+			<div class="nav_logotype">
+				<a href="index.html"><img src="./img/logotype.jpg" alt="logo"></a>
+			</div>
+			<ul class="nav_list">
+				<li class="nav_item nav_active-item">
+					<div class="nav-link">
+						<a href="#">УСЛУГИ И ЦЕНЫ</a>
+						<button id="span" class="nav_active-span">
+							<img src="./img/arrow.png" alt="arrow">
+						</button>
+					</div>
+					<div class="nav-submenu">
+						<ul class="nav-submenu_list">
+							<li class="nav-submenu_item"><a href="lechenie_zubov.html">Лечение зубов</a></li>
+							<li class="nav-submenu_item"><a href="hirurgicheskay_stomat.html">Хирургическая
+									стоматология</a></li>
+							<li class="nav-submenu_item"><a href="protezirovanie.html">Протезирование</a></li>
+							<li class="nav-submenu_item"><a href="chistka_polosti.html">Чистка полости рта</a></li>
+						</ul>
+						<ul class="nav-submenu_list">
+							<li class="nav-submenu_item"><a href="destkay_stomatologiya.html">Детская стоматология</a>
+							</li>
+							<li class="nav-submenu_item"><a href="ispravlenie_pricusa.html">Исправление прикуса</a></li>
+							<li class="nav-submenu_item"><a href="restavration_and_vinir.html">Реставрация и виниры</a>
+							</li>
+							<li class="nav-submenu_item"><a href="cosmetologia_and_massag.html">Косметология и
+									массаж</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav_item"><a href="sales.html">АКЦИИ</a> </li>
+				<li class="nav_item"><a href="stuff.html">ВРАЧИ</a> </li>
+				<li class="nav_item"><a href="about_us.html">О КЛИНИКЕ</a> </li>
+				<li class="nav_item"><a href="blog.html">БЛОГ</a> </li>
+				<li class="nav_item"><a href="contacts.html">КОНТАКТЫ</a> </li>
+			</ul>
+			<div class="nav_application">
+				<button class="nav_application-btn" id="open-modal-btn"><img class="nav__icon" src="./img/phone.svg"
+						alt="logo"></button>
+			</div>
+		</div>
+	</Nav>
+	<section class="offer">
+		<div class="body_container offer_container">
+			<div class="offer_icon">
+				<img src="./img/smartphone.png" alt="smartphones">
+			</div>
+			<div class="offer_text">
+				При записи в клинику онлайн, Вы получаете скидку 5%
+			</div>
+			<div class="offer_button">
+				<a target="_blank"
+					href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"><button
+						class="offer_btn">Записаться</button></a>
+			</div>
+		</div>
+	</section>
+	<section class="main">
+		<div class="body_container main_container">
+			<div class="main_text">
+				<div class="main_text-title">
+					Клиника <br> MedBeautyDent
+				</div>
+				<div class="main_text-desciption">
+					Мы в ответе за Вашу улыбку
+				</div>
+				<div class="main_text-advantages">
+					<div class="main_text-advantage main__advantage">
+						<div class="main__advantage-img">
+							<img class="main__advantage-icon" src="./img/advantageIcon.svg" alt="Tooth pain">
+						</div>
+						<div class="main__advantage-text">
+							Лечим зубы <br> без боли и стресса
+						</div>
+					</div>
+					<div class="main_text-advantage main__advantage">
+						<div class="main__advantage-img">
+							<img class="main__advantage-icon" src="./img/advantageIcon.svg" alt="Tooth pain">
+						</div>
+						<div class="main__advantage-text">
+							У нас только самые <br> опытные врачи
+						</div>
+					</div>
+				</div>
+				<a target="_blank" href="https://app.1denta.ru/booking/booking?from=site&orgid=10658&networkid=0#/main"
+					class="main_button">Записаться на прием</a>
+			</div>
+			<div class="main_imgs">
+				<div class="main_span">Бесплатная <br> консультация</div>
+				<img class="main_img" src="./img/main.png" alt="main">
+			</div>
+		</div>
+	</section>
+	<section class="services">
+
+		<img class="services__img" src="./img/services.jpg" alt="services">
+
+		<div class="services_text">
+			<div class="services_text-container">
+				<div class="services_text-title">
+					Наши услуги
+				</div>
+				<div class="services_text-description">
+					У нас Вы можете пройти полное стоматологическое лечение – от диагностики до эстетических процедур
+				</div>
+				<div class="services_text-advantages">
+
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/1.svg" alt="1">
+						</div>
+						<div class="advantage-text">
+							<a href="lechenie_zubov.html">Лечение зубов</a>
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/2.svg" alt="2">
+						</div>
+						<div class="advantage-text">
+							<a href="cosmetologia_and_massag.html">Косметология</a>
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/3.svg" alt="3">
+						</div>
+						<div class="advantage-text">
+							<a href="hirurgicheskay_stomat.html">Хирургическая стоматология</a>
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/4.svg" alt="4">
+						</div>
+						<div class="advantage-text">
+							<a href="destkay_stomatologiya.html">Детская стоматология</a>
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/5.svg" alt="5">
+						</div>
+						<div class="advantage-text">
+							<a href="protezirovanie.html">Протезирование</a>
+
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/6.svg" alt="6">
+						</div>
+						<div class="advantage-text">
+							<a href="ispravlenie_pricusa.html">Исправление прикуса</a>
+
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/7.svg" alt="7">
+						</div>
+						<div class="advantage-text">
+							<a href="chistka_polosti.html">Чистка полости рта</a>
+
+						</div>
+					</div>
+					<div class="services_text-advantage advantage">
+						<div class="advantage-icon">
+							<img class="adv-icon" src="./img/services/8.svg" alt="8">
+						</div>
+						<div class="advantage-text">
+							<a href="restavration_and_vinir.html">Реставрация и виниры</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<div class="body_container advantages_container">
+			<div class="advantage-card">
+				<div class="advantage_number">
+					100%
+				</div>
+				<div class="advantage_description">
+					качественная работа
+				</div>
+			</div>
+			<div class="advantage-card">
+				<div class="advantage_number">
+					1000+
+				</div>
+				<div class="advantage_description">
+					довольных пациентов
+				</div>
+			</div>
+			<div class="advantage-card">
+				<div class="advantage_number">
+					10
+				</div>
+				<div class="advantage_description">
+					лет — средний опыт врачей
+				</div>
+			</div>
+			<div class="advantage-card">
+				<div class="advantage_number">
+					9/10
+				</div>
+				<div class="advantage_description">
+					клиентов возвращаются к нам
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="about-us">
+		<div class="body_container about-us_container">
+			<div class="about-us_text">
+				<div class="about-us_title">
+					О нашей клинике
+				</div>
+				<div class="about-us_description">
+					Мы предлагаем высококачественные услуги в области лечения зубов. Мы с вниманием и заботой относимся
+					к нашим клиентам и
+					всегда стараемся держать наше обслуживание на высоте.
+				</div>
+				<div class="about-us_button">
+					<a href="about_us.html" class="about-us_btn">Подробности</a>
+				</div>
+			</div>
+			<div class="about-us_imgs">
+				<img class="about-us_img" src="./img/about/about-us.jpg" alt="MedBeautyDent">
+			</div>
+		</div>
+	</section>
+	<section class="gallery">
+		<div class="body_container gallery_container">
+			<img class="gallery_first" src="./img/gallery/1.jpg" alt="gallery_first">
+			<img class="gallery_second" src="./img/gallery/2.jpg" alt="gallery_second">
+			<img class="gallery_third" src="./img/gallery/3.jpg" alt="gallery_third">
+			<img class="gallery_four" src="./img/gallery/4.png" alt="gallery_four">
+		</div>
+	</section>
+	<section class="problems">
+		<div class="body_container problems_container">
+			<div class="problems_title">
+				Какие проблемы мы решаем?
+			</div>
+			<div class="problems_line">
+				<div class="problems_spans">
+					<div class="problems_span">
+						<div class="problems_span-title">Дорогое <br> лечение</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">Мы стараемся удерживать комфортные цены для наших клиентов и
+								всегда подбираем лечение, ориентируясь на Ваши финансы.</span>
+						</div>
+					</div>
+					<div class="problems_span">
+						<div class="problems_span-title">Некачественные <br> медикаменты</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">Мы работаем только с проверенными поставщиками материалов и
+								медикаментов.</span>
+						</div>
+					</div>
+					<div class="problems_span">
+						<div class="problems_span-title">Неопытные <br> врачи</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">Наши специалисты имеют большой опыт в стоматологии и проходят
+								повышение квалификации два раза в год.</span>
+						</div>
+					</div>
+					<div class="problems_span">
+						<div class="problems_span-title">Боль при <br> лечении</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">Для нас важен Ваш комфорт, поэтому мы всегда используем
+								качественную анестезию.</span>
+						</div>
+					</div>
+					<div class="problems_span">
+						<div class="problems_span-title">Равнодушные <br> врачи</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">Каждый специалист в нашей клинике подходит к своим пациентом с
+								максимальной эмпатией.</span>
+						</div>
+					</div>
+					<div class="problems_span">
+						<div class="problems_span-title">Неясный <br> бюджет</div>
+						<div class="problems_circle">
+							<span class="problem_tooltip">В самом начале лечения мы устанавливаем фиксированную
+								стоимость, и Вы никогда не переплатите.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="secret-problems_line">
+				<div class="problems_spanss">
+					<div class="problems_span">
+						<div class="problems_circle secret-circle"><span class="problem_tooltip">Мы стараемся удерживать
+								комфортные
+								цены для наших клиентов и
+								всегда подбираем лечение, ориентируясь на Ваши финансы.</span></div>
+						<div class="problems_span-title">Дорогое <br> лечение</div>
+					</div>
+				</div>
+				<div class="problems_span">
+					<div class="problems_circle secret-circle">
+						<span class="problem_tooltip">Мы работаем только с проверенными поставщиками материалов и
+							медикаментов.</span>
+					</div>
+					<div class="problems_span-title">Некачественные <br> медикаменты</div>
+				</div>
+				<div class="problems_span">
+					<div class="problems_circle secret-circle">
+						<span class="problem_tooltip">Наши специалисты имеют большой опыт в стоматологии и проходят
+							повышение квалификации два раза в год.</span>
+					</div>
+					<div class="problems_span-title">Неопытные <br> врачи</div>
+				</div>
+				<div class="problems_span">
+					<div class="problems_circle secret-circle">
+						<span class="problem_tooltip">Для нас важен Ваш комфорт, поэтому мы всегда используем
+							качественную анестезию.</span>
+					</div>
+					<div class="problems_span-title">Боль при <br> лечении</div>
+				</div>
+				<div class="problems_span">
+					<div class="problems_circle secret-circle">
+						<span class="problem_tooltip">Каждый специалист в нашей клинике подходит к своим пациентом с
+							максимальной эмпатией.</span>
+					</div>
+					<div class="problems_span-title">Равнодушные <br> врачи</div>
+				</div>
+				<div class="problems_span">
+					<div class="problems_circle secret-circle">
+						<span class="problem_tooltip">В самом начале лечения мы устанавливаем фиксированную
+							стоимость, и Вы никогда не переплатите.</span>
+					</div>
+					<div class="problems_span-title">Неясный <br> бюджет</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="sales">
+		<div class="body_container sales_container">
+			<div class="sales_text">
+				<div class="sales_text-title">
+					Акции и скидки
+				</div>
+				<div class="sales_text_description">
+					У нас всегда есть выгодные скидки и спецпредложения <br> для наших клиентов
+				</div>
+				<div class="sales_text-examples">
+					<a class="sales_text-example" href="sales.html">Скидка на первый прием <br> 5%</a>
+					<a class="sales_text-example" href="sales.html">Имплантация "под ключ" <br> — 40 000 ₽</a>
+				</div>
+				<div class="sales_text-footer sales-footer">
+					<div class="sales-footer_text">
+						Другие акции нашей <br> клиники
+					</div>
+					<div class="sales-footer_btn">
+						<a href="sales.html" class="sales-footer_button">Смотреть</a>
+					</div>
+				</div>
+			</div>
+			<div class="sales_review">
+				<div class="sales_review-bg review-bg">
+					<div class="review-bg_imgs">
+						<img class="review-bg_director" src="./img/gallery/quote.png" alt="director">
+					</div>
+					<div class="review-bg_quote">
+						,,
+					</div>
+					<div class="review-bg_text">
+						Наши цены прекрасны и без акций. <br>
+						Мы не навязываем лишних расходов, <br> и всегда обсуждаем стоимость лечения <br> с пациентами.
+					</div>
+					<div class="review-bg_name">
+						Горшкова Екатерина Яковлевна
+					</div>
+					<div class="review-bg_job">
+						генеральный директор <br> клиники
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-specialist">
+		<div class="body_container our-specialist_container">
+			<div class="our-specialist_title">
+				Наши специалисты
+			</div>
+			<div class="our-specialist_description">
+				Наши врачи имеют большой опыт и каждый год проходят курсы повышения квалификации
+			</div>
+		</div>
+		<div class="swiper">
+
+			<div class="swiper-wrapper">
+
+
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/1.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Екатерина <br> Горшкова</div>
+					<div class="card-specialist_job">Врач стоматолог- <br> терапевт</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/2.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Мазанаев <br> Курбан</div>
+					<div class="card-specialist_job">Врач стоматолог-хирург- <br> имплантолог</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/3.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Абрамова <br> Татьяна</div>
+					<div class="card-specialist_job">Врач стоматолог- детский <br> терапевт</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/4.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Кочуков <br> Евгений</div>
+					<div class="card-specialist_job">Врач стоматолог- <br> ортопед</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/5.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Мамеева <br> Карина</div>
+					<div class="card-specialist_job">Врач стоматолог- <br> ортодонт</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/6.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Жакот <br> Иван</div>
+					<div class="card-specialist_job">Врач стоматолог-терапевт,<br> стоматолог-хирург</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="our_specialist-card card-specialist">
+						<img class="card-specialist_img" src="./img/stuff/7.jpg" alt="stuff">
+					</div>
+					<div class="card-specialist_name">Останкова <br> Татьяна</div>
+					<div class="card-specialist_job">Врач-косметолог<br> эстетист</div>
+				</div>
+			</div>
+
+
+			<div class="swiper-button-prev">
+				<img class="swiper-icon" src="./img/prev.svg" alt="">
+			</div>
+			<div class="swiper-button-next">
+				<img class="swiper-icon" src="./img/next.svg" alt="">
+			</div>
+			<div class="swiper-pagination specialist-pagination"></div>
+		</div>
+	</section>
+	<section class="more-about-stuff">
+		<div class="body_container">
+			<a href="stuff.html" class="more-about-stuff_btn">Подробнее о врачах</a>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="body_container footer_container">
+			<div class="footer_left-column">
+				<a href="index.html"><img class="footer-logotype" src="./img/logotype.jpg" alt="logotype"></a>
+				<div class="left-column_title">
+					УСЛУГИ И ЦЕНЫ
+				</div>
+				<ul class="left-column_list">
+					<li class="left-column_item">
+						<a class="footer-link" href="lechenie_zubov.html">Лечение зубов</a>
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="#">Имплантация зубов</a>
+
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="#">Протезирование зубов</a>
+
+					</li>
+				</ul>
+			</div>
+			<div class="footer_middle-first">
+				<div class="middle-first-title footer-title">
+					Телефон консультации:
+				</div>
+				<div class="middle-first-numbers">
+					<div class="middle-first-number footer-description">
+						+7 (910) 732-30-30
+					</div>
+					<div class="middle-first-number footer-description">
+						+7 (473) 232-30-30
+					</div>
+					<ul class="left-column_list left-column_list-top">
+						<li class="left-column_item">
+							<a class="footer-link" href="protezirovanie.html">Чистка полости рта</a>
+
+						</li>
+						<li class="left-column_item">
+							<a class="footer-link" href="#">Хирургия</a>
+
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="footer_middle-second">
+				<div class="middle-first-title footer-title">
+					Адрес:
+				</div>
+				<div class="middle-first-number footer-address">
+					Воронежская область, город
+				</div>
+				<div class="middle-first-number footer-address">
+					Воронеж, мкр. Жилой массив Олимпийский, д.10, помещ. 1/7
+				</div>
+				<ul class="left-column_list left-column_list-subtop">
+					<li class="left-column_item">
+						<a class="footer-link" href="ispravlenie_pricusa.html">Исправление прикуса</a>
+					</li>
+					<li class="left-column_item">
+						<a class="footer-link" href="restavration_and_vinir.html">Реставрация и виниры</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="footer_right-column">
+				<ul class="footer-right_list">
+					<div class="footer-right_item">
+						<a class="footer-link" href="sales.html">АКЦИИ</a>
+
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="stuff.html">ВРАЧИ</a>
+
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="about_us.html">О КЛИНИКЕ</a>
+					</div>
+					<div class="footer-right_item">
+						<a class="footer-link" href="contacts.html">КОНТАКТЫ</a>
+						КОНТАКТЫ
+					</div>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<button id="top">
+		<img class="top" src="./img/scroll.svg" alt="scroll">
+	</button>
+	<script defer src="./js/modal.js"></script>
+</body>
+
+</html>
